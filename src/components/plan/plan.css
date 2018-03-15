@@ -1,0 +1,147 @@
+.plan-section {
+    background-image:url("http://www.saiindiatravel.com/wp-content/uploads/2015/04/JOES-Website-Background-light-grey.jpg");
+    height: 160vh;
+    font-size: 18px;
+    overflow: auto;
+  }
+  
+  .content {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    align-items: center;
+  }
+  
+  .input-divs {
+    background-color: rgba(60, 60, 84, 0.81);
+    height: 70vh;
+    width: 90vh;
+    margin-top: 5vh;
+    border-radius: 15px;
+    overflow: auto;
+  }
+  
+  .plane {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 70%;
+    border-radius: 10px;
+    margin-left: 13vh;
+  }
+  
+  .titles-input-box {
+    text-align: center;
+    font-size: 2em;
+    color: #FFFFFF;
+  }
+  
+  .where {
+    text-align: center;
+    font-size: 2em;
+    color: #FFFFFF;
+  }
+  
+  #future-d{
+    color: #3E3838;
+    background-color: #EDE6E6;
+    font-size: 30px;
+    padding:3vh;
+    width: 80%;
+    height: 10vh;
+    margin-left: 3.5vh;
+    margin-right: 1vh;
+    margin-top: 0vh;
+    overflow: auto;
+    border: 1px solid #F20000;
+  }
+  
+  .btn-box {
+    display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: flex-end;
+      align-content: stretch;
+  }
+  
+  #btn-submit {
+    height: 5vh;
+    background-color: #349F04;
+    width:10vh;
+    border-radius: 10px;
+    margin-right: 2vh;
+    margin-top: -10.5vh;
+    margin-bottom: 1vh;
+    text-align: center;
+    color: white;
+    padding-top: .5vh;
+  }
+  #btn-clear {
+    height: 5vh;
+    background-color: #D32503;
+    width:10vh;
+    border-radius: 10px;
+    margin-right: 2vh;
+    text-align: center;
+    color: white;
+    padding-top: .5vh;
+  }
+  
+  .want {
+    background-color: #EDE6E6;
+    color: #097D02;
+    font-size: 1.5em;
+    padding: 4vh;
+    width: 91%;
+    height: 57vh;
+    margin-left: 4vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    overflow: auto;
+    border-radius: 15px;
+    overflow: auto;
+  }
+  
+  .content2 {
+    display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+  }
+  
+  .input-divs2 {
+    background-color: rgba(60, 60, 84, 0.81);
+    height: 70vh;
+    width: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    overflow: auto;
+    border-radius: 15px;
+    overflow: auto;
+  }
+  
+  .reine {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .been {
+  color: #940303;
+  font-size: 1.5em;
+  padding: 4vh;
+  background-color: #EDE6E6;
+  width: 91%;
+  height: 57vh;
+  margin-left: 4vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  overflow: auto;
+  border-radius: 15px;
+  overflow: auto;
+  }
