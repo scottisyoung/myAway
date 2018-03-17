@@ -1,12 +1,13 @@
+require('dotenv').config();
 var express = require("express");
 var bodyParser = require("body-parser");
 var cors= require("cors");
 
-var app = express();
+const app = express();
 
 app.use(cors());
-
-app.use(bodyParser.json())
+app.use(bodyParser.json());
+app.use(express.static(`${__dirname}/../build`));
 
 var visited = [];
 var id = 0;
@@ -32,8 +33,14 @@ app.delete('/api/visited/:id', function(req,res){
  res.json(visited)   
 });
 
+const PORT = 3006;
+app.listen(PORT, () => console.log(`listening on port:`, PORT));
 
-app.listen(3006, function() {
-    console.log("Working on 3006");
+// HOSTING
+
+const path = require('path');
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../build/index.html'));
 })
 

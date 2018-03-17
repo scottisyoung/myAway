@@ -1,18 +1,30 @@
 {
-  "name": "my-app",
+  "name": "app",
   "version": "0.1.0",
   "private": true,
+  "main": "./server/server.js",
   "dependencies": {
     "axios": "^0.16.2",
+    "body-parser": "^1.18.2",
     "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts": "1.0.12"
   },
   "scripts": {
+    "server": "nodemon --watch server ./server/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "now-start": "node server/server.js",
+    "deploy": "now --public --dotenv=.env.prod -d"
+  },
+  "now": {
+    "alias": "myAway"
+  },
+  "proxy": "http://localhost:3006"
 }
