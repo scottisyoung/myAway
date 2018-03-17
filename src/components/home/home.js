@@ -39,7 +39,7 @@ class Home extends Component {
         newPlanned.splice(newPlanned.indexOf(visited), 1)
         var newVisited = [...this.state.visited, visited];
         
-         axios.post("http://localhost:3006/api/visited", {visited: visited}).then((res) => {
+         axios.post("/api/visited", {visited: visited}).then((res) => {
              this.setState({
                  visited: res.data,
                  planned: newPlanned
@@ -48,7 +48,7 @@ class Home extends Component {
     }
 
     componentDidMount(){
-        axios.get("http://localhost:3006/api/visited").then((res) => {
+        axios.get("/api/visited").then((res) => {
             this.setState({
                 visited: res.data
             })
@@ -58,7 +58,7 @@ class Home extends Component {
     }
 
     handleDelete(id) {
-       axios.delete("http://localhost:3006/api/visited/" + id).then((res) => {
+       axios.delete("/api/visited/" + id).then((res) => {
            this.setState({
                visited: res.data
            })
