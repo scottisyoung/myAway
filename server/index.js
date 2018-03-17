@@ -9,18 +9,17 @@ app.use(cors());
 app.use(bodyParser.json())
 
 var visited = [];
-
 var id = 0;
+
+app.get('/api/visited', function(req, res){
+    console.log(visited);
+    res.json(visited)
+})
 
 app.post('/api/visited', function(req, res) {
     req.body.id = id;
     id++;
     visited.push(req.body)
-    res.json(visited)
-})
-
-app.get('/api/visited', function(req, res){
-    console.log(visited);
     res.json(visited)
 })
 

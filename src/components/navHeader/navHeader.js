@@ -22,7 +22,6 @@ import './navHeader.css';
               <ul className="nav navbar-nav navbar-right">
                   <li className="active"><a href="#home">Home</a></li>
                   <li><a href="#plan">Plan</a></li>
-                  <li><a href="#advice">Advice</a></li>
                   <li className="dropdown">
                     <a href="#" className="dropdown-toggle" data-toggle="dropdown"> Social Media <b className="caret"></b></a>
                       <ul className="dropdown-menu">
