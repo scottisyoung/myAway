@@ -19,7 +19,7 @@ header {
     right: 0;
     top: 0;
     display: block;
-    background-image:url("https://www.dropbox.com/s/7lqk6dbopkip6a5/beach.jpg?raw=1");
+    background-image:url("https://www.dropbox.com/s/qmaa6rmnwucrf2p/beach%20%281%29.jpg?raw=1");
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
@@ -84,7 +84,7 @@ header {
     height: 1100px;
     width: 100%;
     font-size: 18px;
-    background-image:url('https://www.dropbox.com/s/7f3q2yqrmuqyyoi/greece.jpg?raw=1');
+    background-image:url('https://www.dropbox.com/s/rpjilv10owtd3r4/greece%20%281%29.jpg?raw=1');
     background-size: cover;
   }
   
