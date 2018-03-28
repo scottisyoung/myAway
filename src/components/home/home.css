@@ -19,7 +19,7 @@ header {
     right: 0;
     top: 0;
     display: block;
-    background-image:url("https://www.dropbox.com/s/qmaa6rmnwucrf2p/beach%20%281%29.jpg?raw=1");
+    background-image:url("http://res.cloudinary.com/scottisyoung/image/upload/v1522215472/My%20Away/beach_1.jpg");
     background-size: cover;
     transform-origin: center center 0;
     transform: translateZ(-1px) scale(2);
@@ -84,7 +84,7 @@ header {
     height: 1100px;
     width: 100%;
     font-size: 18px;
-    background-image:url('https://www.dropbox.com/s/rpjilv10owtd3r4/greece%20%281%29.jpg?raw=1');
+    background-image:url('http://res.cloudinary.com/scottisyoung/image/upload/v1522215483/My%20Away/greece_1.jpg');
     background-size: cover;
   }
   
