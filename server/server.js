@@ -33,7 +33,7 @@ app.delete('/api/visited/:id', function(req,res){
  res.json(visited)   
 });
 
-const PORT = 3006;
+const PORT = 3008;
 app.listen(PORT, () => console.log(`listening on port:`, PORT));
 
 // HOSTING
